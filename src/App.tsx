@@ -1,9 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-function somar (a,b){
-    return a+b;
-}
+import logo from "./logo.svg";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
