@@ -1,5 +1,17 @@
+/*
+"editor.formatOnSave": false: Isso desativa a formatação automática do código ao salvar o arquivo.
+Normalmente, o VS Code pode formatar o código automaticamente com base nas configurações definidas para a linguagem que está sendo usada.
+Definir isso como false impede a formatação automática no salvamento.
+
+"editor.codeActionsOnSave": { "source.fixAll.eslint": true }: Isso configura o VS Code para executar a ação de correção (fix) do ESLint sempre
+ que você salvar um arquivo.
+ESLint é uma ferramenta usada para encontrar e corrigir problemas de estilo e erros em código JavaScript.
+Com essa configuração, o VS Code executará automaticamente as correções sugeridas pelo ESLint ao salvar o arquivo.
+
+ explorar a documentação oficial do VS Code : https://code.visualstudio.com/docs/getstarted/settings.
+*/
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }

@@ -1,0 +1,40 @@
+O arquivo settings.json no Visual Studio Code (VS Code) é usado para configurar várias opções e comportamentos do editor.
+Existem muitas configurações disponíveis, mas vou destacar algumas das mais importantes e comuns que você pode querer conhecer:
+
+"editor.tabSize": Define o tamanho das guias (espaços ou tabulações) usadas para a formatação do código.
+
+"editor.wordWrap": Controla a quebra de linha automática.
+Pode ser definido como "on" para quebrar linhas automaticamente, "off" para desativar a quebra de linha ou "wordWrapColumn" para quebrar as linhas no limite da coluna especificada em "editor.wordWrapColumn".
+
+"editor.fontSize": Define o tamanho da fonte no editor.
+
+"editor.lineNumbers": Controla a exibição dos números de linha no gutter (margem lateral) do editor.
+Você pode configurá-lo para "on", "off" ou "relative" (números de linha relativas).
+
+"files.autoSave": Define como o VS Code lida com o salvamento automático.
+Pode ser configurado como "off", "afterDelay" (após um atraso), ou "onFocusChange" (ao alterar o foco para outra janela).
+
+"files.autoSaveDelay": Especifica o atraso em milissegundos antes de acionar o salvamento automático,
+se "files.autoSave" estiver configurado como "afterDelay".
+
+"files.autoSaveDelay": Especifica o atraso em milissegundos antes de acionar o salvamento automático,
+se "files.autoSave" estiver configurado como "afterDelay".
+
+"editor.formatOnSave": Controla se o código é formatado automaticamente ao salvar um arquivo. Pode ser definido como true ou false.
+
+"editor.codeActionsOnSave": Permite definir ações a serem executadas ao salvar um arquivo.
+No exemplo que você forneceu, é usado para executar a correção automática do ESLint.
+
+"files.associations": Permite associar extensões de arquivo a linguagens específicas para que o VS Code aplique a formatação e destaque de sintaxe apropriados.
+
+"workbench.colorTheme": Define o tema de cores do VS Code.
+Você pode selecionar um tema predefinido ou uma extensão de tema personalizada.
+
+"editor.snippetSuggestions": Controla como os snippets (trechos de código) são sugeridos no editor.
+Você pode configurá-lo como "top" para exibir sugestões de snippets acima das sugestões de código ou "bottom" para exibi-los abaixo.
+
+"editor.suggestOnTriggerCharacters": Controla quando as sugestões de código são acionadas automaticamente quando você digita determinados caracteres.
+
+"editor.multiCursorModifier": Define qual tecla modificadora é usada para adicionar múltiplos cursores ao texto.
+ O padrão é "alt" no Windows e "option" no macOS.
+
