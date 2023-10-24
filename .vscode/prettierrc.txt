@@ -1,0 +1,40 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "always"
+}
+
+
+=====EXPLICAÇÃO=====
+
+printWidth: Define o número máximo de caracteres por linha antes que Prettier quebre automaticamente a linha. Neste exemplo, o limite é de 80 caracteres.
+
+tabWidth: Define o tamanho da tabulação. Neste exemplo, está configurado para 2 espaços.
+
+useTabs: Se definido como true, Prettier usará tabulações em vez de espaços para a formatação.
+ No exemplo, está definido como false, o que significa que espaços são usados.
+
+semi: Se definido como true, Prettier adicionará ponto e vírgula no final das instruções, caso contrário, os pontos e vírgulas não serão adicionados.
+
+singleQuote: Se definido como true, Prettier usará aspas simples para strings em vez de aspas duplas.
+
+trailingComma: Controla a adição de vírgulas adicionais no final de objetos e arrays. Neste exemplo,
+"all" significa que vírgulas finais serão adicionadas em todos os lugares onde possível.
+
+bracketSpacing: Se definido como true, Prettier irá adicionar um espaço entre chaves em objetos literais.
+
+jsxBracketSameLine: Controla se as chaves de abertura de elementos JSX devem aparecer na mesma linha ou em uma nova linha.
+
+arrowParens: Controla se parênteses devem ser adicionados em torno dos parâmetros de uma função de seta.
+"always" significa que eles sempre serão adicionados.
+
+Essas são apenas algumas das configurações que você pode ajustar no arquivo .prettierrc.json.
+Você pode personalizar essas configurações para atender às preferências de formatação do seu projeto.
+Quando você executa o Prettier, ele aplicará essas configurações para formatar automaticamente o
+código-fonte de acordo com as regras especificadas no arquivo.prettierrc.json.

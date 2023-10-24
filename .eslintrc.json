@@ -51,9 +51,9 @@ npm install --save-dev --save-exact prettier
     "prettier/prettier": [
       "error",
       {
+        "semi": false,
         "singleQuote": true,
-        "trailingComma": "none",
-        "semi": false
+        "trailingComma": "none"
       }
     ]
   },
