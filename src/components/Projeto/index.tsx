@@ -1,6 +1,7 @@
+import { useState, useEffect } from 'react'
 import Paragrafo from '../Paragrafo'
 import Titulo from '../Titulo'
-import { Card, LinkBotao } from './styles'
+import { Card, LinkBotao, Lista } from './styles'
 
 /*
 podemos utilizar o styled antes da nossa função,
@@ -13,12 +14,33 @@ const Card = styled.div`
 `
 
 */
-const Projeto = () => (
-  <Card>
-    <Titulo>Projeto Lista de tarefas </Titulo>
-    <Paragrafo tipo="secundario">Lista de tarefas feita com Vue.js</Paragrafo>
-    <LinkBotao>Visualizar</LinkBotao>
-  </Card>
-)
+const Projeto = () => {
+  const [arrayRepos, setRespos] = useState([])
+
+  useEffect(() => {
+    fetch(`https://api.github.com/users/AlvaroDeCarvalho/repos`)
+      .then((reqJSON) => reqJSON.json())
+      .then((respostaJSON) => setRespos(respostaJSON))
+  }, [])
+
+  return (
+    <>
+      <Lista>
+        {arrayRepos.map(({ name, language, html_url, id }) => (
+          <li key={id}>
+            <Card>
+              <Titulo fontSize={14}>Nome do projeto :{name}</Titulo>
+              <Paragrafo>Linguagem: {language}</Paragrafo>
+              <LinkBotao href={html_url} target="_blank" rel="noreferrer">
+                Acesse aqui
+              </LinkBotao>
+            </Card>
+          </li>
+        ))}
+        <li></li>
+      </Lista>
+    </>
+  )
+}
 
 export default Projeto

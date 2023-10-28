@@ -1,6 +1,6 @@
 import { Titulo as TituloEstilo } from './styles'
 export type Props = {
-  children: string
+  children: string | string[]
   fontSize?: number
 }
 
