@@ -12,7 +12,7 @@ const SideBar = () => {
         <Paragrafo tipo="secundario" fontSize={16}>
           @AlvaroDeCarvalho
         </Paragrafo>
-        <Descricao tipo="principal" fontSize={12}>
+        <Descricao tipo="principal" fontSize={13}>
           Engenheiro Front-end
         </Descricao>
         <BotaoTema>trocar tema</BotaoTema>
