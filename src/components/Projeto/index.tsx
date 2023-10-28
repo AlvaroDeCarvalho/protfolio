@@ -1,6 +1,7 @@
 import Paragrafo from '../Paragrafo'
 import Titulo from '../Titulo'
 import { Card, LinkBotao } from './styles'
+
 /*
 podemos utilizar o styled antes da nossa função,
 entretanto na propia documentação do styled-commponents é indicado usa-lo antes da função, nao

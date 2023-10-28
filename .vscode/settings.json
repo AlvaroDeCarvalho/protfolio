@@ -11,7 +11,7 @@ Com essa configuração, o VS Code executará automaticamente as correções sug
  explorar a documentação oficial do VS Code : https://code.visualstudio.com/docs/getstarted/settings.
 */
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
