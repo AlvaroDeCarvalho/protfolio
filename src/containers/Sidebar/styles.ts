@@ -17,8 +17,12 @@ export const BotaoTema = styled.button`
   font-weight: bold;
   background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
+  @media (max-width: 767px) {
+    margin-bottom: 22px;
+  }
 `
 export const SidebarContainer = styled.div`
+  text-align: center;
   position: sticky;
   top: 80px;
   left: 0;
