@@ -19,15 +19,7 @@ export const SocialLink = styled.ul`
   max-width: 240px;
   width: 100%;
   margin-bottom: 24px;
-  li img {
-    max-width: 30px;
-    transition: all ease 0.3s;
-    @media (max-width: 767px) {
-      :first-child {
-        margin-left: 10px;
-      }
-    }
-  }
+
   li img:hover {
     transform: scale(1.3);
   }
@@ -36,8 +28,14 @@ export const SocialLink = styled.ul`
   }
 `
 export const ImgLink = styled.li`
-  li img {
+  img {
+    border-radius: 12px;
     max-width: 30px;
     transition: all ease 0.3s;
+    @media (max-width: 767px) {
+      :first-child {
+        margin-left: 10px;
+      }
+    }
   }
 `

@@ -37,6 +37,8 @@ npm install --save-dev --save-exact prettier
     "prettier"
   ],
   "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+
     //apondando algum erro no hooks como um error
     "react-hooks/rules-of-hooks": "error",
     //algum problemas na dependencia é um aviso(warn)
