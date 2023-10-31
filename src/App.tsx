@@ -18,7 +18,10 @@ function App() {
     <ThemeProvider theme={estaUsandoTemaDark ? temaDark : temaLight}>
       <EstiloGlobal />
       <Container>
-        <SideBar trocaTema={trocaTema} />
+        <SideBar
+          trocaTema={trocaTema}
+          tema={estaUsandoTemaDark ? temaDark : temaLight}
+        />
         <main>
           <Sobre />
           <Projetos />

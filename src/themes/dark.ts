@@ -1,4 +1,4 @@
-import fotolua from './icons8-símbolo-da-lua-50.png'
+import fotoSol from './imagens/icons8-sol-30.png'
 
 const temaDark = {
   corPrincipal: '#fff',
@@ -6,7 +6,7 @@ const temaDark = {
   corDeFundo: '#282a35',
   corDeFundoBotao: '#fff',
   corDaBorda: '#c1c1c1',
-  fotoDoTema: fotolua
+  fotoDoTema: fotoSol
 }
 export default temaDark
 export type Theme = {

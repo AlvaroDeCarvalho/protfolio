@@ -1,11 +1,11 @@
-import fotoDoSol from './icons8-sol-30.png'
+import fotoLua from './imagens/icons8-símbolo-da-lua-50.png'
 const temaLight = {
   corPrincipal: '#282a35',
   corSecundaria: '##949494',
   corDeFundo: '#fff',
   corDeFundoBotao: '#4476bf',
   corDaBorda: '#c1c1c1',
-  fotoDoTema: fotoDoSol
+  fotoDoTema: fotoLua
 }
 
 export default temaLight
