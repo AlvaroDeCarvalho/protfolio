@@ -10,7 +10,8 @@ export const Descricao = styled(ParagrafoEstilo)`
 `
 
 export const BotaoTema = styled.button`
-  border-radius: 12px;
+  border-radius: 50%;
+  border: none;
   padding: 8px;
   color: ${(props) => props.theme.corDeFundo};
   font-size: 10px;
@@ -26,4 +27,9 @@ export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+`
+export const ImgBlack = styled.img`
+  width: 20px;
+  height: auto;
+  src: url(./icons8-sol-30);
 `

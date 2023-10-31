@@ -19,7 +19,6 @@ function App() {
       <EstiloGlobal />
       <Container>
         <SideBar trocaTema={trocaTema} />
-
         <main>
           <Sobre />
           <Projetos />
