@@ -20,6 +20,8 @@ const SideBar = (props: Props) => {
           Engenheiro Front-end
         </S.Descricao>
         <S.BotaoTema onClick={props.trocaTema}>
+          {/*como nao estamos trabalhando com um recurso do styled-commponents, precisamos passar manualmente o theme, atraves das
+          propiedades na hora de colocar o SideBar no app. */}
           <S.ImgBlack src={props.tema.fotoDoTema} />
         </S.BotaoTema>
       </S.SidebarContainer>

@@ -20,6 +20,9 @@ function App() {
       <Container>
         <SideBar
           trocaTema={trocaTema}
+          /* aqui estamos passando manualmente o theme, uma vez que no SideBar nao estamos utilizando um elemento da
+          biblioteca styled-commponents, assim, nos nao temos acesso as propiedades.theme , fazendo nos sermos obrigados
+          a passar a mão  */
           tema={estaUsandoTemaDark ? temaDark : temaLight}
         />
         <main>

@@ -30,6 +30,6 @@ export const SidebarContainer = styled.div`
 `
 export const ImgBlack = styled.img`
   width: 20px;
-  height: auto;
-  src: url(./icons8-sol-30);
+  display: flex;
+  justify-content: center;
 `
