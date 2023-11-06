@@ -6,7 +6,8 @@ const temaDark = {
   corDeFundo: '#282a35',
   corDeFundoBotao: '#fff',
   corDaBorda: '#c1c1c1',
-  fotoDoTema: fotoSol
+  fotoDoTema: fotoSol,
+  sombraTema: '5px 5px 5px rgba(255, 255, 255, 0.5)'
 }
 export default temaDark
 export type Theme = {

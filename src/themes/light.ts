@@ -5,7 +5,8 @@ const temaLight = {
   corDeFundo: '#fff',
   corDeFundoBotao: '#4476bf',
   corDaBorda: '#c1c1c1',
-  fotoDoTema: fotoLua
+  fotoDoTema: fotoLua,
+  sombraTema: '5px 5px 5px rgba(0, 0, 0, 0.5)'
 }
 
 export default temaLight

@@ -1,6 +1,7 @@
 import { styled } from 'styled-components'
 
 export const Card = styled.div`
+  box-shadow: ${(props) => props.theme.sombraTema};
   border: 1px solid ${(props) => props.theme.corDaBorda};
   padding: 16px;
 `
