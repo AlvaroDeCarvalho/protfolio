@@ -1,44 +1,43 @@
-import { useState, useEffect } from 'react'
 import Paragrafo from '../Paragrafo'
 import Titulo from '../Titulo'
-import { Card, LinkBotao, Lista } from './styles'
-
-/*
-podemos utilizar o styled antes da nossa função,
-entretanto na propia documentação do styled-commponents é indicado usa-lo antes da função, nao
-dentro dela
-
-const Card = styled.div`
-  border: 1px solid #c1c1c1;
-  padding: 16px;
-`
-
-*/
-const Projeto = () => {
-  const [arrayRepos, setRespos] = useState([])
-
-  useEffect(() => {
-    fetch(`https://api.github.com/users/AlvaroDeCarvalho/repos`)
-      .then((reqJSON) => reqJSON.json())
-      .then((respostaJSON) => setRespos(respostaJSON))
-  }, [])
-
+import * as S from './styles'
+const Projeto = ({
+  title,
+  description,
+  imgSrc,
+  languages,
+  githubLink,
+  vercelLink
+}: ProjectsType) => {
   return (
     <>
-      <Lista>
-        {arrayRepos.map(({ name, language, html_url, id }) => (
-          <li key={id}>
-            <Card>
-              <Titulo fontSize={14}>Nome do projeto :{name}</Titulo>
-              <Paragrafo>Linguagem: {language}</Paragrafo>
-              <LinkBotao href={html_url} target="_blank" rel="noreferrer">
-                Acesse aqui
-              </LinkBotao>
-            </Card>
-          </li>
-        ))}
-        <li></li>
-      </Lista>
+      <S.Card>
+        <img src={imgSrc} alt={title} />
+        <div>
+          <Titulo fontSize={14}>{title}</Titulo>
+          <S.InfosContent>
+            <Paragrafo>{description}</Paragrafo>
+            <li>
+              {languages.map((language) => {
+                return (
+                  <img
+                    key={language}
+                    src={`https://raw.githubusercontent.com/devicons/devicon/master/icons/${language}/${language}-original.svg`}
+                  />
+                )
+              })}
+            </li>
+          </S.InfosContent>
+          <div className="containerButtons">
+            <S.LinkBotao href={githubLink} target="_blank">
+              Github
+            </S.LinkBotao>
+            <S.LinkBotao href={vercelLink} target="_blank">
+              Vercel
+            </S.LinkBotao>
+          </div>
+        </div>
+      </S.Card>
     </>
   )
 }

@@ -1,7 +1,7 @@
 import { ParagrafoEstilo } from './styles'
 export type Props = {
   children: string[] | string
-  tipo?: 'principal' | 'secundario'
+  tipo?: 'principal' | 'secundario' | 'terciario'
   fontSize?: number
 }
 

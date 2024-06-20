@@ -1,63 +1,30 @@
-//instalação do eslint => npx eslint --init
-//instalação do prettier
-/*
---> primeiramente precisamos que o  react entenda
-a utilização de hooks(useState, useEffect ... ), para isso instalamos
-==> npm install --save-dev eslint-plugin-react-hooks
-
-link do plugin => https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks/README.md
-
-
-npm install --save-dev  eslint-plugin-prettier
-npm install --save-dev  eslint-config-prettier
-npm install --save-dev --save-exact prettier
-*/
 {
   "env": {
-    "browser": true,
-    "es2021": true
+      "browser": true,
+      "es2021": true
   },
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    //colocando os plugins recomendados
     "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
+      "ecmaVersion": "latest",
+      "sourceType": "module"
   },
-  //add plugin
   "plugins": [
-    "@typescript-eslint",
-    "react",
-    "react-hooks",
-    "prettier"
+      "@typescript-eslint",
+      "react",
+      "react-hooks"
   ],
   "rules": {
-    "@typescript-eslint/no-explicit-any": "off",
-
-    //apondando algum erro no hooks como um error
     "react-hooks/rules-of-hooks": "error",
-    //algum problemas na dependencia é um aviso(warn)
     "react-hooks/exhaustive-deps": "warn",
-    //configuração do typescript
-    //desativando ferramentas nao mais utilizaveis
     "react/prop-types": "off",
-    //para o react nao ter obrigatoriedade de ser importado
     "react/react-in-jsx-scope": "off",
-    //não precisa ficar expecificando o tipo de retornos no typescript
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "semi": false,
-        "singleQuote": true,
-        "trailingComma": "none"
-      }
-    ]
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   },
   "settings": {
     "react": {

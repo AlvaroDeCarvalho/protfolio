@@ -1,0 +1,76 @@
+
+      [
+        {
+        "id": 1,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/efoodPrint.png?raw=true",
+        "title": "Site de Delivery",
+        "description": "Para este projeto, optei por utilizar React juntamente com TypeScript. A escolha do React permitiu-me criar uma interface de usuário interativa e eficiente, enquanto o TypeScript ofereceu um sistema de tipos robusto que melhorou a qualidade do código e facilitou a manutenção.",
+        "languages": ["typescript", "react", "html5", "css3", "redux"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/projeto_Avalia_restaurantes",
+        "vercelLink": "https://projeto-efood-gamma.vercel.app/"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/eplayPrint.png?raw=true",
+        "title": "Site de Game",
+        "description": "Neste projeto, desenvolvi uma loja virtual de games, implementada com o uso de React e TypeScript. A combinação dessas tecnologias permitiu a criação de uma plataforma robusta e escalável, proporcionando uma experiência de usuário fluida e dinâmica, além de garantir um código mais seguro e fácil de manter.",
+        "languages": ["typescript", "react", "html5", "css3", "redux"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/eplay",
+        "vercelLink": "https://eplay-seven-beryl.vercel.app/"
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/leandingPagePrint.png?raw=true",
+        "title": "Site de uma leanding page da ebac",
+        "description": "Neste projeto, construímos uma estrutura básica utilizando CSS e HTML e Javascript. Embora a responsividade não tenha sido implementada, o foco foi criar um exemplo didático para facilitar o aprendizado dessas tecnologias",
+        "languages": ["html5", "css3", "javascript"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/projeto_modulo_22_leandingPage",
+        "vercelLink": "https://projeto-modulo-22-leanding-page.vercel.app"
+      },
+      {
+        "id": 4,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/restaurantePrint.png?raw=true",
+        "title": "Site Restaurante",
+        "description": "Este projeto apresenta o desenvolvimento de um website inovador para um restaurante, que explora integralmente as funcionalidades do Bootstrap para criar uma experiência de usuário excepcional e um design responsivo.",
+        "languages": ["html5", "css3", "bootstrap"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/Restaurante-com-bootstrap",
+        "vercelLink": "https://restaurante-com-bootstrap.vercel.app/"
+      },
+      {
+        "id": 5,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/Captura%20de%20tela%202024-06-19%20181555.png?raw=true",
+        "title": "Site de Tarefas com Vue", 
+        "description": "Neste projeto, desenvolvemos um site para marcar tarefas e desmarcar tarefas, deletar e criar novas atividades. O to do  foi projetada com uma interface simples e intuitiva.O objetivo foi criar um modelo prático que serve como uma introdução eficaz ao uso dessas ferramentas de desenvolvimento web.",
+        "languages": ["vuejs", "typescript"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/todo-vuejs",
+        "vercelLink": "https://todo-vuejs-steel.vercel.app/"
+      },
+      {
+        "id": 6,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/calculadoraPrint.png?raw=true",
+        "title": "Site de uma calculadora de notas",
+        "description": "Neste projeto, desenvolvemos uma calculadora de notas utilizando HTML5, CSS3 e Grunt. O objetivo foi criar uma interface de usuário interativa e responsiva, que oferece uma experiência de usuário semelhante à de uma calculadora real.",
+        "languages": ["html5", "css3"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/calculadora_notas/tree/master",
+        "vercelLink": "https://calculadora-notas-self.vercel.app/"
+      },
+      {
+        "id": 7,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/disneyPrint.png?raw=true",
+        "title": "Clone da Disney+",
+        "description": "Neste projeto, desenvolvemos um clone da Disney+ utilizando HTML5, CSS3 e JavaScript. O objetivo foi criar uma interface de usuário interativa e responsiva, que oferece uma experiência de usuário semelhante à do site original.",
+        "languages": ["html5", "css3", "javascript", "grunt"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/clone_disneyplus",
+        "vercelLink": "https://projeto-modulo-21-disney-project-8hep.vercel.app/"
+      },
+      {
+        "id": 8,
+        "imgSrc": "https://github.com/AlvaroDeCarvalho/servidor_estatico/blob/main/imagensProjestos/listasTarefasPrint.png?raw=true",
+        "title": "Lista de tarefas",
+        "description": "Neste projeto, desenvolvemos uma lista de tarefas utilizando React e TypeScript, com funcionalidades de busca e soma automática.",
+        "languages": ["typescript", "react", "html5", "css3", "redux"],
+        "githubLink": "https://github.com/AlvaroDeCarvalho/listas-tarefas",
+        "vercelLink": "https://listas-tarefas.vercel.app/"
+      }]
+
+  
