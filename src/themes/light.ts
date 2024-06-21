@@ -1,5 +1,6 @@
 import fotoLua from './imagens/icons8-símbolo-da-lua-50.png'
 const temaLight = {
+  corTitle: '#fff',
   corPrincipal: '#282a35',
   corSecundaria: '##949494',
   corDeFundo: '#fff',

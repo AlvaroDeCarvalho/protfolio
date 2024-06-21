@@ -12,9 +12,15 @@ const Projetos = () => {
     <section>
       <Titulo fontSize={16}>Projetos</Titulo>
       <S.ProjectContainer>
-        {projects.map((project) => (
-          <Projeto key={project.id} {...project} />
-        ))}
+        {projects.map((project) => {
+          return (
+            <>
+              <div className=".indContainer">
+                <Projeto {...project} />
+              </div>
+            </>
+          )
+        })}
       </S.ProjectContainer>
     </section>
   )

@@ -5,4 +5,8 @@ export const ProjectContainer = styled.ul`
   grid-template-columns: 1fr 1fr;
   column-gap: 12px;
   list-style: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `

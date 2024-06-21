@@ -8,4 +8,5 @@ export const Titulo = styled.h3<Props>`
   display: flex;
   text-align: center;
   margin-bottom: 16px;
+  margin-top: 16px;
 `

@@ -1,6 +1,7 @@
 import fotoSol from './imagens/icons8-sol-30.png'
 
 const temaDark = {
+  corTitle: '#fff',
   corPrincipal: '#fff',
   corSecundaria: '#eee',
   corDeFundo: '#282a35',

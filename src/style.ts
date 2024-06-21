@@ -29,8 +29,10 @@ export const Container = styled.div`
   column-gap: 56px;
 
   @media (max-width: 768px) {
-    max-width: 80%;
-    display: block;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   img {

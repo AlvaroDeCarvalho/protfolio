@@ -1,6 +1,7 @@
+import { useState } from 'react'
 import Paragrafo from '../Paragrafo'
-import Titulo from '../Titulo'
 import * as S from './styles'
+
 const Projeto = ({
   title,
   description,
@@ -9,13 +10,22 @@ const Projeto = ({
   githubLink,
   vercelLink
 }: ProjectsType) => {
+  const [model, setModel] = useState(false)
+  const [expanded, setExpanded] = useState(false)
+
+  const toogleModel = () => {
+    setExpanded(!expanded)
+  }
   return (
     <>
-      <S.Card>
-        <img src={imgSrc} alt={title} />
-        <div>
-          <Titulo fontSize={14}>{title}</Titulo>
-          <S.InfosContent>
+      <S.Card isActive={expanded} onClick={toogleModel}>
+        <S.Item onClick={() => setModel(true)}>
+          <img src={imgSrc} alt={title} />
+        </S.Item>
+
+        <S.Titulo>{title}</S.Titulo>
+        <S.Model className={model ? 'active' : ''}>
+          <S.Content expanded={expanded}>
             <Paragrafo>{description}</Paragrafo>
             <li>
               {languages.map((language) => {
@@ -27,16 +37,16 @@ const Projeto = ({
                 )
               })}
             </li>
-          </S.InfosContent>
-          <div className="containerButtons">
-            <S.LinkBotao href={githubLink} target="_blank">
-              Github
-            </S.LinkBotao>
-            <S.LinkBotao href={vercelLink} target="_blank">
-              Vercel
-            </S.LinkBotao>
-          </div>
-        </div>
+            <div className="containerButtons">
+              <S.LinkBotao href={githubLink} target="_blank">
+                Github
+              </S.LinkBotao>
+              <S.LinkBotao href={vercelLink} target="_blank">
+                Vercel
+              </S.LinkBotao>
+            </div>
+          </S.Content>
+        </S.Model>
       </S.Card>
     </>
   )
