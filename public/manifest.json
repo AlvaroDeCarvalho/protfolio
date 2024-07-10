@@ -18,6 +18,13 @@
       "sizes": "512x512"
     }
   ],
+  "screenshots": [
+    {
+      "src": "./AppImages/",
+      "sizes": "640x480",
+      "type": "image/png"
+    }],
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
