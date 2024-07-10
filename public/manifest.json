@@ -78,6 +78,11 @@
       "type": "image/png"
     },
     {
+      "src": "./AppImages/windows11/Square150x150Logo.scale-400.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
       "src": "./AppImages/windows11/StoreLogo.scale-100.png",
       "sizes": "100x100",
       "type": "image/png"
@@ -93,38 +98,48 @@
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/20.png",
+      "src": "./AppImages/ios/20.png",
       "sizes": "20x20",
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/32.png",
+      "src": "./AppImages/ios/32.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/40.png",
+      "src": "./AppImages/ios/40.png",
       "sizes": "40x40",
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/58.png",
+      "src": "./AppImages/ios/58.png",
       "sizes": "58x58",
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/76.png",
+      "src": "./AppImages/ios/76.png",
       "sizes": "76x76",
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/114.png",
+      "src": "./AppImages/ios/114.png",
       "sizes": "114x114",
       "type": "image/png"
     },
     {
-      "src": "./AppImages/android/126.png",
+      "src": "./AppImages/ios/126.png",
       "sizes": "126x126",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/ios/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/ios/1024.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
 
