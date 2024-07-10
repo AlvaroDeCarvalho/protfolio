@@ -131,8 +131,8 @@
   ],
   "screenshots": [
     {
-      "src": "./screenshots/",
-      "sizes": "640x480",
+      "src": "./screenshots/image.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }],
 
