@@ -3,24 +3,135 @@
   "name": "Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-36.png",
+      "sizes": "36x36",
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-40.png",
+      "sizes": "40x40",
+      "type": "image/png"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-44.png",
+      "sizes": "44x44",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-80.png",
+      "sizes": "80x80",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square44x44Logo.targetsize-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square150x150Logo.scale-100.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square150x150Logo.scale-125.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square150x150Logo.scale-150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square150x150Logo.scale-200.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/Square150x150Logo.scale-400.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/StoreLogo.scale-100.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/StoreLogo.scale-125.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/windows11/StoreLogo.scale-150.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/20.png",
+      "sizes": "20x20",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/40.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/58.png",
+      "sizes": "58x58",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "./AppImages/android/126.png",
+      "sizes": "126x126",
+      "type": "image/png"
+    },
+
   ],
   "screenshots": [
     {
-      "src": "./AppImages/",
+      "src": "./screenshots/",
       "sizes": "640x480",
       "type": "image/png"
     }],
